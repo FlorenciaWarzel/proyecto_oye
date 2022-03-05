@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9f3ec;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+#MenuNavegacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}
+
+
+/* TITULOS */
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50;
+    color: black;
+}
+
+.titulo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+h5 {
+    font-size: 15;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+/* BUSQUEDA */
+
+
+/*BLOQUE DE CANCIONES */
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.bloque {
+    text-align: center;
+    margin: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: solid 1px #d1ccc0;
+    border-style: groove;
+    background-color: #dfe6e9;
+}
+
+.contenedor .bloque>div {
+    background-color: #b2bec3;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-style: ridge;
+}
+
+
+/* PIE */
+
+#pie {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-top: 50%;
+}
+
+#pie2 {
+    text-align: right;
+    padding-left: 960px;
+    padding-bottom: 2px;
+}
+
+
+/* RESPONSIVE */

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9f3ec;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* TITULO NAVEGACION */
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50;
+    color: black;
+}
+
+.titulo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40;
+    margin-right: 30px;
+}
+
+#MenuNavegacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    margin-right: 260px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #16a085;
+}
+
+#carruselTitulo {
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+#carrusel {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#carrusel ul {
+    display: flex;
+    padding-top: 20px;
+    width: 600%;
+    animation: cambio 15s infinite alternate linear;
+}
+
+#carrusel li {
+    width: 100%;
+    list-style: none;
+}
+
+#carrusel img {
+    width: 85%;
+}
+
+
+/* TRANSICION DE IMAGENES */
+
+@keyframes cambio {
+    0% {
+        margin-left: 0%;
+    }
+    25% {
+        margin-left: 0%;
+    }
+    30% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -200%;
+    }
+    55% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -300%;
+    }
+    70% {
+        margin-left: -300%;
+    }
+    75% {
+        margin-left: -400%;
+    }
+    85% {
+        margin-left: -400%;
+    }
+    90% {
+        margin-left: -500%;
+    }
+    100% {
+        margin-left: -500%;
+    }
+}
+
+
+/* PIE */
+
+#pie {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-top: 50%;
+}
+
+#pie2 {
+    text-align: right;
+    padding-left: 960px;
+    padding-bottom: 2px;
+}
+
+
+/* RESPONSIVE */

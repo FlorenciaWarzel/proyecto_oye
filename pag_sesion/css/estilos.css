@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9f3ec;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* TITULO NAVEGACION */
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50;
+    color: black;
+}
+
+.titulo2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40;
+}
+
+#MenuNavegacion {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 400px;
+    padding-top: 0px;
+}
+
+
+/* FORMULARIO */
+
+.contenedor {
+    align-content: center;
+    background-color: #16a085;
+    margin-left: 400px;
+    margin-right: 500px;
+    padding: 40px;
+}
+
+.controls {
+    width: 100%;
+    font-size: 20;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+}
+
+
+/*Pie */
+
+#pie {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    margin-top: 50%;
+}
+
+#pie2 {
+    text-align: right;
+    padding-left: 960px;
+    padding-bottom: 2px;
+}
+
+
+/* RESPONSIVE */
