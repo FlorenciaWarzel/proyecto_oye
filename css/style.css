@@ -26,7 +26,6 @@ header {
 .titulo2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40;
-    margin-right: 30px;
     text-align: center;
 }
 
@@ -39,20 +38,39 @@ header {
     flex-grow: 1;
     text-align: center;
 }
+
+#MenuNavegacion3 {
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}
+
+.home{
+    display: flex ;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
 #contenedor {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-left: 260px;
     margin-right: 260px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #16a085;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 13px;
 }
+
 
 #carruselTitulo {
     margin:50;
+    justify-content: center;
+    align-items: center;
 }
 
 #carrusel {
@@ -118,7 +136,8 @@ footer{
 
 
 /* RESPONSIVE */
-@media only screen and (max-width: 340px){
+@media only screen and (max-width: 340px)
+{
     *{
         margin: 0;
         padding:0 ;
@@ -138,23 +157,57 @@ footer{
     }
 
     .titulo{
-        font-size: 30;
+        font-size: 40;
+        font-weight: bold;
     }
     
     #MenuNavegacion {
-        font-size: 3rem;
-        width: 100%;
-    
+        display: inline;
+        margin-right: 2px ;
+        font-size: xx-small;
+
+    }
+
+    #MenuNavegacion > li { 
+        border-bottom: grey;
+
+    }
+   nav > li:hover{
+        background: rgba(255, 150, 232, 0.623);
     }
     #MenuNavegacion2{
-        width: 100%;
+        display:none;
+    }
+    #MenuNavegacion3{
+        display: inline;
+        margin-right: 2px ;
+        font-size: xx-small;
+    }
+    
+    #MenuNavegacion3 li:hover{
+        background: rgba(255, 150, 232, 0.623);  
+    }
+
+
+    .titulo{
+        font-size: 15px;
+        align-items: flex-start;
+    }
+    
+    .titulo img{
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+        margin-top: 2px;
     }
 
     .home{
+        flex: 2;
         margin: 0;
         padding:0 ;
         box-sizing: border-box;
     }
+    
 
     #contenedor {
         display: flex;
