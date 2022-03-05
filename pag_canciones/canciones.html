@@ -18,20 +18,63 @@
             <nav class="navbar navbar-expand-md navbar-light border-bottom border-3 border-dark p-0">
                 <a href="#" class="navbar-brand">
                     <h1 class="titulo">
-                        <a style="text-decoration: none;" href="./../index.html"> <img class="rounded-circle mx-1 logo" src="../imagenes/sonido1.jpg" alt="sonido" title="sonido"
-                            height="50"></a>OYE
+                        <a href="./../index.html"> <img class="rounded-circle mx-1 logo" src="../imagenes/sonido1.jpg"
+                                alt="sonido" title="sonido" height="50"></a>OYE
                     </h1>
                 </a>
                 <div id="MenuNavegacion" class="collapse navbar-collapse">
                     <ul class="navbar-nav m-lg-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-dark" href="../index.html">Inicio</a>
+                            <a class="nav-link text-dark" href="./../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="pag_canciones/canciones.html">Canciones</a>
+                            <a class="nav-link text-dark" href="../pag_canciones/canciones.html">Canciones</a>
                         </li>
                     </ul>
                 </div>
+                <div id="MenuNavegacion3" class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-lg-auto">
+                        <li class="nav-item active">
+                        
+                            <a class="nav-link text-dark" href="../pag_registro/registro.html">Registro</a>
+                        
+                        </li>
+                    
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" href="../pag_sesion/sesion.html">Inicio de
+                                Sesión</a>
+                        
+                        </li>
+
+                        <li class="nav-item active nav-link text-dark" data-bs-toggle="modal"
+                            data-bs-target="#modalContacto">Contacto</li>
+                        <div class="modal fade modal" id="modalContacto" tabindex="-1" aria-hidden="true"
+                            aria-labelledby="modalTitle">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="modalTitle">
+                                            <strong>Contacto</strong>
+                                        </h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>informacion@oye.com.ar</p>
+                                        <h6>
+                                            <strong>+54 11 34 56 98 71</strong>
+                                        </h6>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
                 <div id="MenuNavegacion2" class="btn-group">
                     <ul class="navbar-nav navbar-right">
                         <li class="nav-item">
@@ -40,18 +83,22 @@
                         </li>
                         <li class="nav-item">
                             <button class="btn btn-dark btn-sm p-sm-0 rounded-pill mx-1 " type="button">
-                                <a class="nav-link text-white" href="../pag_sesion/sesion.html">Inicio de Sesión</a></button>
+                                <a class="nav-link text-white" href="../pag_sesion/sesion.html">Inicio de
+                                    Sesión</a></button>
                         </li>
                     </ul>
-                    <button class="btn btn-dark text-white btn-sm p-sm-2 rounded-pill" type="button" data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</button>
-                    <div class="modal fade" id="modalContacto" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                    <button class="btn btn-dark text-white btn-sm p-sm-2 rounded-pill" type="button"
+                        data-bs-toggle="modal" data-bs-target="#modalContacto">Contacto</button>
+                    <div class="modal fade" id="modalContacto" tabindex="-1" aria-hidden="true"
+                        aria-labelledby="modalTitle">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h4 class="modal-title" id="modalTitle">
                                         <strong>Contacto</strong>
                                     </h4>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <p>informacion@oye.com.ar</p>
@@ -60,12 +107,14 @@
                                     </h6>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </nav>
         </div>
     </header>
