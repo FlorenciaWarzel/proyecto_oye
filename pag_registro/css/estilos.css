@@ -31,16 +31,21 @@ header {
 
 /* FORMULARIO */
 
+
+
 h2 {
     font-size: 38px;
     font-weight: bold;
-    padding-left: 300px;
     padding-top: 0px;
 }
-
+.caja{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
 .formulario {
-    margin-left: 300px;
-    margin-right: 350px;
     padding: 30px;
     border: 1px solid gray;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -62,23 +67,79 @@ h2 {
     color: blue
 }
 
-#pie {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 2px;
-    margin-top: 50%;
-}
 
-#pie2 {
-    text-align: right;
-    padding-left: 960px;
-    padding-bottom: 2px;
-}
 
 
 /* RESPONSIVE */
+
+@media only screen and (max-width: 1024px){
+    
+    *{
+        margin: 0;
+        padding:0 ;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 760px)
+{
+    *{
+        margin: 0;
+        padding:0 ;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+ 
+
+
+}
+@media only screen and (max-width: 500px)
+{
+    *{
+        margin: 0;
+        padding:0 ;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    form{
+        justify-content: center;
+        width: 100%;
+    }
+    
+}

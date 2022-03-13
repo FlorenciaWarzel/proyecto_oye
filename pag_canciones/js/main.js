@@ -6,7 +6,7 @@ document = getElementById("inputSearch").addeEventListener("keyup", buscador_int
 function buscador_interno() {
 
     filter = inputSearch.value.toUpperCase();
-    div = box_search.getElementsByTagName("div");
+    div = box_search.getElementsByTagName("resultado");
 // 
     //Recorriendo elementos a filtrar mediante los h5
 
@@ -23,4 +23,5 @@ function buscador_interno() {
             div[i].style.display = "none";
         }
     }
+    return true;
 }
